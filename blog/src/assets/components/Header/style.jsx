@@ -38,6 +38,7 @@ export const Header = styled.header`
     nav ul {
       display: flex;
       gap: 3rem;
+      padding: 5px;
     }
 
     a {

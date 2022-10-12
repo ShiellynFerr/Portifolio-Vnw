@@ -39,9 +39,9 @@ export const Section = styled.section`
     padding: 5px 20px;
     border-radius: 10px;
 
-    p {
+   p {
       text-align: justify;
-      font-size: 18px;
+      font-size: 2rem;
     }
 
     @media(max-width:650px) {
@@ -54,11 +54,14 @@ export const Section = styled.section`
     color: #fff;
     padding: 5px 10px;
     border-radius: 10px;
-    }
+
     p {
       text-align: justify;
       font-size: 16px;
     }
+    
+    }
+   
 
     @media(max-width:500px) {
     display: flex;
