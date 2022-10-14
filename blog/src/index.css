@@ -2,6 +2,7 @@
 
 body {
   background-color: #231942;
+  box-sizing: border-box;
   font-family: 'Lilita One', cursive;
   color: #fff;
 }
