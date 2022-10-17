@@ -12,6 +12,13 @@ export const Container = styled.section`
     font-size: 40px;
     font-family: "Poppins", sans-serif;
   }
+
+  @media(max-width:700px) {
+    h1 {
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+  }
+  }
 `;
 
 export const Section = styled.section`
@@ -26,5 +33,18 @@ export const Section = styled.section`
   div {
     display: flex;
     gap: 20px;
+  }
+  @media(max-width:900px) {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+    div {
+      display: flex;
+      flex-direction: column;
+    }
   }
 `;
