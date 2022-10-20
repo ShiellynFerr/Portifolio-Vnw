@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Section, Image } from "./style";
-// import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
 
 const Home = () => {
